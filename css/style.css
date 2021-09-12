@@ -28,12 +28,13 @@ body {
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* border: 1px solid black; */
   text-align: center;
   width: 100%;
   margin: auto;
   align-items: center;
   justify-content: center;
+ 
+
 }
 .single-product {
   padding: 10px;
@@ -43,9 +44,10 @@ body {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
+  background: #fcfcfc;
 }
 .product-image {
-  width: 150px;
+  width: auto;
   height: 150px;
 }
 .cart {
