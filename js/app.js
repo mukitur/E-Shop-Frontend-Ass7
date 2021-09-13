@@ -77,7 +77,9 @@ const updateTotal = () => {
   const grandTotal =
     getInputValue("price") + getInputValue("delivery-charge") +
     getInputValue("total-tax");
+  //get 2 decimal point in Total
   document.getElementById("total").innerText = grandTotal.toFixed(2);
 
 };
+
 loadProducts();
