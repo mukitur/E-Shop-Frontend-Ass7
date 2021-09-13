@@ -35,13 +35,17 @@ body {
   justify-content: center;
 }
 .single-product {
-  padding: 10px;
+  padding: 12px;
   transition: 0.6s;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 10px;
+  margin: 10px;
+  height: 100%;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 1px solid rgb(93, 100, 201);
   background: #fcfcfc;
 }
 .product-image {
